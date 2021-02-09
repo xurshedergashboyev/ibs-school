@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+    font-family: 'Mazzard', sans-serif;
+}
+
+@font-face {
+    font-family: "Mazzard";
+    src: local("Mazzard"),
+    url("./assets/font/GraphicUX.Com-Mazzard-Font/GraphicUX.Com-Mazzard/MazzardH-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+    font-family: "Mosk";
+    src: local("Mosk"),
+    url("./assets/font/Mosk_Typeface/Mosk-Semi-Bold-600.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Recoleta";
+    src: local("Recoleta"),
+    url("./assets/font/Recoleta/Recoleta-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Margo";
+    src: local("Margo"),
+    url("./assets/font/Margo_Dfonts.org/Margo Complete Family/Jen-Wagner-Co.-Margo-Script-Regular.otf")
+    format("opentype");
+}
+
+@font-face {
+    font-family: "Gold Play";
+    src: local("Gold Play"),
+    url("./assets/font/GoldPlay/GoldplayRegular.otf")
+    format("opentype");
+}

@@ -77,6 +77,7 @@
   "coursePageFooterCompany": "Компариям",
   "coursePageFooterPartners": "Партнерам",
   "emptyPage": "Упс, пока нет",
+  "emptyPageCourses": "Курсов",
   "emptyPageWebinar": "Вебинаров",
   "emptyPageForum": "Форумов",
   "emptyPageBlog": "Блогов",
@@ -87,6 +88,10 @@
   "categoryProgramming": "программирование",
   "categoryBusiness": "бизнес",
   "categoryDesign": "дизайн",
-  "categoryLanguage": "язык",
-  "categoryAll": "все"
+  "categoryLanguage": "языки",
+  "categoryAll": "все",
+  "courseBottomNew": "Станьте участником до 21 марта и получите скидку 20% на любой курс!",
+  "courseBottomGirl": "Скидка 10% на курсы IT и Business для девочек!",
+  "popupButton": "Купить \uD83E\uDD73",
+  "wentWrong": "Что нибудь\nпошло не так"
 }

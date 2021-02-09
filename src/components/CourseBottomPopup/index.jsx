@@ -11,7 +11,7 @@ import discount10 from "../../assets/images/10-removebg-preview.png";
 import discount20 from "../../assets/images/20-removebg-preview.png";
 import Girls from "../../assets/images/girls-removebg-preview.png";
 import NewComer from "../../assets/images/calendar.png";
-
+import {Text} from '../Languages'
 //icon
 import { ReactComponent as CancelIcon } from "../../assets/icons/cancelSmall.svg";
 
@@ -24,9 +24,8 @@ const CourseBottomPopup = ({ setShow, popUpName }) => {
         <TextsBox>
           <h1>
             {popUpName === "new-comer"
-              ? "21-martgacha a'zo bo'lib, xoxlagan kursimizga 20% chegirmaga ega\n" +
-                "            bo'ling!"
-              : "Qiz bolalar uchun 10% chegirma!"}
+              ? (<Text tid="courseBottomNew" />)
+              : (<Text tid="courseBottomGirl" />)}
           </h1>
           <div>
             <img
@@ -52,7 +51,7 @@ const CourseBottomPopup = ({ setShow, popUpName }) => {
           alt="gadgets"
         />
         <ButtonPopup onClick={setShow} popUpName={popUpName}>
-          Buy Course
+          <Text tid="popupButton" />
         </ButtonPopup>
         <CancelButton onClick={() => setIsOpenToggle(!isOpenToggle)}>
           <CancelIcon />

@@ -77,6 +77,7 @@
   "coursePageFooterCompany": "Kompaniyalar uchun",
   "coursePageFooterPartners": "Hamkorlar uchun",
   "emptyPage": " hali yo'q",
+  "emptyPageCourses": "Kurslar",
   "emptyPageWebinar": "Vebinarlar",
   "emptyPageForum": "Forumlar",
   "emptyPageBlog": "Bloglar",
@@ -88,5 +89,9 @@
   "categoryBusiness": "biznes",
   "categoryDesign": "dizayn",
   "categoryLanguage": "tillar",
-  "categoryAll": "hammasi"
+  "categoryAll": "hammasi",
+  "courseBottomNew": "21-martgacha a'zo bo'lib, xoxlagan kursimizga 20% chegirmaga ega bo'ling!",
+  "courseBottomGirl": "Qiz bolalar uchun IT va Biznes kurslariga 10% chegirma!",
+  "popupButton": "Sotib olish \uD83E\uDD73",
+  "wentWrong": "Nimadur\nnoto'g'ri oshlayapti"
 }

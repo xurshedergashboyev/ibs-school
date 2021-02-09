@@ -1,4 +1,7 @@
+import React from 'react'
+
 export const pageData = {
+
   logo: "https://d2xzmw6cctk25h.cloudfront.net/coverimage/1361021/attachment/thumb-3a75c9438b95bfc500e2360bf63268ac.png",
   smallText: "КОМПАНИЯ",
   companyName: "Образовательный портал GeekBrains",

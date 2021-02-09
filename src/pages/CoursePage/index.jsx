@@ -154,8 +154,8 @@ function CoursePage({
                   handleCardClick={ handleCardClick }
                 />
               )
-            ) : !data.loading && !data.error ? <EmptyPage pageName={ "courses" }/> : '' }
-          { !data.loading && data.error ? <CenterBox error>Something <br/> went wrong</CenterBox> : "" }
+            ) : !data.loading && !data.error ? <EmptyPage pageName={ <Text tid="emptyPageCourses" />}/> : '' }
+          { !data.loading && data.error ? <CenterBox><Text tid="wentWrong" /></CenterBox> : "" }
         </CourseCards>
         <CoursesForm/>
         <CourseBottomPopup setShow={ () => setShow( { show: true, selectedCourse: {} } ) } popUpName="girls"/>

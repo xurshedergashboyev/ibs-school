@@ -64,6 +64,7 @@ export const AboutItemFirst = styled.div`
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    padding-top: 0;
   }
 `;
 
@@ -78,6 +79,9 @@ export const AboutItemSecond = styled.div`
   flex-direction: row;
   .item-text {
     margin-bottom: 20px;
+    @media screen and (max-width: 866px) {
+      padding-top: -50px;
+    }
   }
 
   .item-second {
@@ -86,6 +90,14 @@ export const AboutItemSecond = styled.div`
   @media screen and (max-width: 575px) {
     text-align: center;
     margin-bottom: 50px;
+  }
+  @media screen and (max-width: 866px) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
   }
   @media screen and (max-width: 866px) {
     display: flex;
